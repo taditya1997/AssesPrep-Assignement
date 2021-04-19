@@ -1,0 +1,31 @@
+.container
+{
+display:flex;
+justify-content: center;
+margin-top:10px;
+
+}
+.searchcontainer
+{
+    display:flex;
+    align-items: center;
+    background-color: white;
+    width:200%;
+    height: 40px;
+    border-radius: 20px;
+    
+}
+.searchcontainer>.MuiSvgIcon-root
+{
+    color:rgb(196, 47, 47);
+    padding: 10px;
+}
+.searchcontainer > input[type=text]
+{
+border: 5px;
+outline-width:0;
+}
+input[type=text]:focus 
+{
+    width: 100%;
+  }

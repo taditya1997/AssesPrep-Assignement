@@ -1,0 +1,47 @@
+.main
+{
+    display:flex;
+    height: 60vh;
+    width: 90vw;
+    box-shadow: -1px 4px 20px -6px rgba(0,0,0,0.75);
+}
+.main > .container
+{
+    display:flex;
+    overflow: scroll;
+    flex-direction:row;
+    flex-wrap:wrap;
+    flex: 1;
+    justify-content: space-evenly;
+    
+}
+.container > .card
+{
+    display: flex;
+    flex-direction: initial;
+    flex-wrap: initial;
+    max-width: 25vw;
+    max-height:33vh;
+    margin: 8px;
+    background-color: cornflowerblue;
+}
+.card > .bookdetails
+{
+    display:flex;
+    flex-direction:column;
+}
+.bookdetails > .content
+{
+    flex: '1 0 auto';
+    font-size: small;
+}
+.card > .image
+{
+  display:flex;
+  flex-direction: column;
+  background: cornsilk;
+}
+.image > img
+{
+width: 151px;
+}
